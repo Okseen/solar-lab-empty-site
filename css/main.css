@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: white;
+	font-family: MyriadReg;
+}
+
+h1,h2,h3,h4,h5,p{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+a, 
+a:hover,
+a:visited,
+a:active,
+a:focus{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.main-container{
+	height: 100vh;
+}
+
+.custom-wrapper{
+	display: grid;
+	height: 100%;
+	/*display: flex;*/
+	background: url('../img/background.png') no-repeat center center fixed;
+	background-size: cover;
+		-webkit-background-size: 	cover;
+  		-moz-background-size: 		cover;
+  		-o-background-size: 		cover;
+  		background-size: 			cover;
+	/*align-items: center;*/
+}
+
+.row{
+	margin: auto;
+	text-align: center;
+}
+
+.img-container img{
+	width: 400px;
+}
+
+.coming-soon{
+	font-family: MyriadBold;
+}
+
+.regular-h3 h3{
+	font-size: 55px;
+	margin-top: 15px;
+}
+
+.regular-h4 h4{
+	font-size: 24px;
+}
+
+.regular-footer{
+	padding-top: 10px;
+}
+
+.regular-footer p.phone{
+	font-size: 48px;
+}
+
+.regular-footer p.email{
+	font-size: 36px;
+}
+
+.regular-footer p.email img{
+	display: inline-block;
+	height: 26px;
+    margin-left: 26px;
+}
+
+.coming-soon h1{
+	font-size: 120px;
+	display: inline-block;
+    border-bottom: 3px solid white;
+}
+
+
+@media (max-width: 992px) {
+	.img-container img{
+		width: 400px;
+	}
+
+	.regular-h3 h3{
+		font-size: 45px;
+		margin-top: 15px;
+	}
+
+	.regular-h4 h4{
+		font-size: 24px;
+	}
+
+	.regular-footer{
+		padding-top: 10px;
+	}
+
+	.regular-footer p.phone{
+		font-size: 38px;
+	}
+
+	.regular-footer p.email{
+		font-size: 26px;
+	}
+
+	.regular-footer p.email img{
+		display: inline-block;
+		height: 26px;
+	    margin-left: 26px;
+	}
+
+	.coming-soon h1{
+		font-size: 100px;
+		display: inline-block;
+	    border-bottom: 3px solid white;
+	}
+}
+
+@media (max-width: 768px) {
+	.img-container img{
+		width: 300px;
+	}
+
+	.regular-h3 h3{
+		font-size: 25px;
+		margin-top: 15px;
+	}
+
+	.regular-h4 h4{
+		font-size: 24px;
+	}
+
+	.regular-footer{
+		padding-top: 10px;
+	}
+
+	.regular-footer p.phone{
+		font-size: 38px;
+	}
+
+	.regular-footer p.email{
+		font-size: 26px;
+	}
+
+	.regular-footer p.email img{
+		display: inline-block;
+		height: 26px;
+	    margin-left: 26px;
+	}
+
+	.coming-soon h1{
+		font-size: 50px;
+		display: inline-block;
+	    border-bottom: 3px solid white;
+	}
+}
+
+
+@font-face {
+	font-family: MyriadBold; 
+	src: url(../fonts/MyriadPro-Bold.otf); 
+}
+
+@font-face {
+	font-family: MyriadReg; 
+	src: url(../fonts/MyriadPro-Regular.otf); 
+}
